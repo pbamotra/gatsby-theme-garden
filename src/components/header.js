@@ -13,8 +13,11 @@ const Header = () => {
 
   return (
     <header>
-      <Link to="/">
-        <h3>{siteMetadata.title}</h3>
+      <Link to="https://www.pankesh.com" sx={{ color: 'text', textDecoration: 'none', fontWeight: 'bold', }}>
+        {siteMetadata.title} {home}
+      </Link>
+      <Link to="/" sx={{ color: 'text', textDecoration: 'underline', marginLeft: '30px' }}>
+        {"Notes home"} 
       </Link>
       <div className="controls">
         <Search />
