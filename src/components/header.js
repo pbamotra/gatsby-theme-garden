@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header>
       <Link to="https://www.pankesh.com" sx={{ color: 'text', textDecoration: 'none', fontWeight: 'bold', }}>
-        {siteMetadata.title} {home}
+        {siteMetadata.title}
       </Link>
       <Link to="/" sx={{ color: 'text', textDecoration: 'underline', marginLeft: '30px' }}>
         {"Notes home"} 
