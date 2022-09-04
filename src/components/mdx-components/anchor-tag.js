@@ -19,7 +19,7 @@ export const AnchorTag = ({
 }) => {
   if (!href) href = restProps.to;
   if (!href.match(/^http/))
-    return noPopups ? (
+    return withoutPopup ? (
       <Link {...restProps} to={href} sx={{ variant: 'links.internal' }} />
     ) : (
       <Tippy content={popups[href.replace(/^\//, '')]} placement="right" animation="shift-away">
