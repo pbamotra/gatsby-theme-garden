@@ -15,7 +15,7 @@ body.light-mode {
   --text: #1a202c;
   --separator: #e2e8f0;
   --shadow: rgba(0, 0, 0, 0.1);
-  --link: #3182ce;
+  --link: rgba(109, 40, 217, 1);
 
   /* References */
   --references-bg: #ebf4ff;
@@ -33,7 +33,7 @@ body.dark-mode {
   --text: #fafafc;
   --separator: #252525;
   --shadow: rgba(255, 255, 255, 0.1);
-  --link: #3da1ff;
+  --link: rgba(167, 139, 250, 1);
 
   /* References */
   --references-bg: #17181a;
