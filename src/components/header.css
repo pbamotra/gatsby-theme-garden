@@ -23,6 +23,7 @@ header > a {
   transition: color 0.3s ease;
   padding-top: inherit;
   padding-bottom: inherit;
+  padding-right: 32px;
 }
 
 header .controls {
