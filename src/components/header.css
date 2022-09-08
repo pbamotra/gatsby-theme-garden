@@ -21,6 +21,8 @@ header > a {
   color: var(--text);
   text-decoration: none;
   transition: color 0.3s ease;
+  padding-top: inherit;
+  padding-bottom: inherit;
 }
 
 header .controls {
